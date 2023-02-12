@@ -49,8 +49,7 @@ This function should only modify configuration layer settings."
      emacs-lisp
      git
      helm
-     ;; lsp
-     ;; markdown
+     markdown
      multiple-cursors
      ;; org
      ;; (shell :variables
