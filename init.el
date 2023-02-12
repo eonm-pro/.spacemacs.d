@@ -534,12 +534,17 @@ dump."
   (set-frame-parameter (selected-frame) 'alpha '(95 95))
   (add-to-list 'default-frame-alist '(alpha 95 95))
 
+  ;; minimap
   (minimap-mode 1)
   (setq minimap-window-location 'right)
 
+  ;; beacon
   (beacon-mode 1)
   (setq beacon-blink-when-point-moves t)
   (setq beacon-blink-when-window-changes t)
+
+  ;; centered cursor
+  (global-centered-cursor-mode 1)
   "Configuration for user code:
 This function is called at the very end of Spacemacs startup, after layer
 configuration.
